@@ -1,4 +1,10 @@
+from pathlib import Path
+import sys
 from datetime import date
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from publication_data import PUBLICATIONS
 
 PLUGINS = ["sitemap"]
 SITEMAP = {
@@ -12,7 +18,7 @@ SITEMAP = {
         "articles": "monthly",
         "indexes": "monthly",
         "pages": "monthly",
-    }
+    },
 }
 
 AUTHOR = "Austin T. Li"
@@ -37,6 +43,7 @@ MENUITEMS = [
     ("About", "/"),
     ("Publications", "/publications/"),
     ("Teaching", "/teaching/"),
+    ("Awards", "/awards/"),
 ]
 
 NAVBAR_FIXED = True
@@ -52,13 +59,3 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
-
-PUBLICATIONS = [
-    {
-        "title": "Leveraging External Synchrony for Distributed Databases in Functions as a Service Workflows",
-        "authors": "Austin T. Li",
-        "venue": "Undergraduate Senior Thesis, Princeton University, 2023.",
-        "pdf_url": "/pdfs/senior_thesis.pdf",
-        "selected": True,
-    }
-]
