@@ -1,1 +1,2 @@
-nbconvert
+pelican>=4.10,<5
+Markdown>=3.6,<4
