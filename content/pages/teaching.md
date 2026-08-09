@@ -5,13 +5,14 @@ Slug: teaching
 
 ### Cornell PhD
 
+- CS 4410 **Instructor** - [Summer 2026](https://www.cs.cornell.edu/courses/cs4410/2026su/)
 - CS 5414 TA - [Fall 2024](https://www.cs.cornell.edu/courses/cs5414/2024fa/), [Fall 2025](https://www.cs.cornell.edu/courses/cs5414/2025fa/)
 
-###### *Cornell Course Information
+###### Cornell Course Information
 
+- CS 4410 - Operating Systems
 - CS 5414 - Distributed Computing Principles
 
-<br/>
 <br/>
 
 ### Princeton Masters
@@ -24,7 +25,7 @@ Slug: teaching
 - COS 226/217 Lab TA (combined role) - Fall 2020 - Spring 2023
 - [Assistant Head Lab TA](https://introlab.cs.princeton.edu/diana-espindola-and-austin-li-talk-about-their-experiences-as-head-intro-lab-team-in-2022/) - Spring 2022, Fall 2022
 
-###### *Princeton Course Information
+###### Princeton Course Information
 
 - COS 126 - Intro to CS
 - COS 226 - Data Structures and Algorithms
