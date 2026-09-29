@@ -23,7 +23,8 @@ I previously completed my Bachelor's and Master's in Computer Science at Princet
 Outside research, I like to play soccer, pickleball, and read.
 You can find a copy of my CV [here](/pdfs/AustinLiCV.pdf).
 
-My current research focuses on building a robust and flexible framework for safety in Byzantine transactional systems. 
-The presence of Byzantine clients in BFT systems is often ignored or simply relegated to the problem of authentication. 
-Such a solution is inadequate for situations where authorized clients decide to act maliciously. 
-We aim to build a system that provides a general framework for safe interactive transactions while maintaining performance.
+My current research focuses on revisiting correctness for Byzantine fault-tolerant  (BFT) transactional systems. 
+Despite provding strong safety guarantees, the adoption of these systems has been hampered by issues with scalability and developer convenience. 
+To address this, recent work has shifted to a client-centric BFT database architecture.
+However, this creates a signicant vulnerability: Byzantine clients are now able to violate the integrity of the database.
+We build a system, Sintr, that provides a general framework for restoring safety to client-centric BFT databases while retaining their benefits.

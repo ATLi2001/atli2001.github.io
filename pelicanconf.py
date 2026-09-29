@@ -1,12 +1,15 @@
-from pathlib import Path
 import sys
 from datetime import date
+from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from publication_data import PUBLICATIONS
+import publication_data
 
-PLUGINS = ["sitemap"]
+PUBLICATIONS = publication_data.PUBLICATIONS
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["sitemap", "new_tab_links"]
 SITEMAP = {
     "format": "xml",
     "priorities": {

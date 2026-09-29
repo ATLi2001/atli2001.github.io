@@ -6,7 +6,7 @@ Slug: teaching
 ### Cornell PhD
 
 - CS 4410 **Instructor** - [Summer 2026](https://www.cs.cornell.edu/courses/cs4410/2026su/)
-- CS 5414 TA - [Fall 2024](https://www.cs.cornell.edu/courses/cs5414/2024fa/), [Fall 2025](https://www.cs.cornell.edu/courses/cs5414/2025fa/)
+- CS 5414 TA - [Fall 2024](https://www.cs.cornell.edu/courses/cs5414/2024fa/), [Fall 2025](https://www.cs.cornell.edu/courses/cs5414/2025fa/), [Fall 2026](https://www.cs.cornell.edu/courses/cs5414/2026fa/)
 
 ###### Cornell Course Information
 

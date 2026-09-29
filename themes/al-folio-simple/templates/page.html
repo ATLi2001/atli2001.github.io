@@ -12,8 +12,8 @@
           {% if publication.venue %}
             <div>{{ publication.venue }}</div>
           {% endif %}
-          {% if publication.url %}
-            <div><a href="{{ publication.url }}">PDF</a></div>
+          {% if publication.links %}
+            <div>{{ publication.links }}</div>
           {% endif %}
         </div>
       {% endfor %}
