@@ -74,30 +74,37 @@
 </div>
 
 <h2>About</h2>
-<p>I'm a Computer Science PhD student at Cornell University where I am advised by <a href="https://www.cs.cornell.edu/lorenzo/">Lorenzo Alvisi</a>.
+<p>I'm a Computer Science PhD student at Cornell University where I am advised by <a href="https://www.cs.cornell.edu/lorenzo/" target="_blank" rel="noopener">Lorenzo Alvisi</a>.
 I am broadly interested in distributed systems, cloud computing, and the challenges in creating efficient, durable, consistent, and fault tolerant systems.
-I previously completed my Bachelor's and Master's in Computer Science at Princeton University, where I worked with <a href="https://www.amitlevy.com/">Amit Levy</a> and <a href="https://www.cs.princeton.edu/~wlloyd/">Wyatt Lloyd</a>.
+I previously completed my Bachelor's and Master's in Computer Science at Princeton University, where I worked with <a href="https://www.amitlevy.com/" target="_blank" rel="noopener">Amit Levy</a> and <a href="https://www.cs.princeton.edu/~wlloyd/" target="_blank" rel="noopener">Wyatt Lloyd</a>.
 Outside research, I like to play soccer, pickleball, and read.
-You can find a copy of my CV <a href="/pdfs/AustinLiCV.pdf">here</a>.</p>
-<p>My current research focuses on building a robust and flexible framework for safety in Byzantine transactional systems. 
-The presence of Byzantine clients in BFT systems is often ignored or simply relegated to the problem of authentication. 
-Such a solution is inadequate for situations where authorized clients decide to act maliciously. 
-We aim to build a system that provides a general framework for safe interactive transactions while maintaining performance.</p></div>
+You can find a copy of my CV <a href="/pdfs/AustinLiCV.pdf" target="_blank" rel="noopener">here</a>.</p>
+<p>My current research focuses on revisiting correctness for Byzantine fault-tolerant  (BFT) transactional systems. 
+Despite provding strong safety guarantees, the adoption of these systems has been hampered by issues with scalability and developer convenience. 
+To address this, recent work has shifted to a client-centric BFT database architecture.
+However, this creates a signicant vulnerability: Byzantine clients are now able to violate the integrity of the database.
+We build a system, Sintr, that provides a general framework for restoring safety to client-centric BFT databases while retaining their benefits.</p></div>
       <div class="clearfix"></div>
       <div>
             <h2 class="mt-5">Selected Publications</h2>
                 <section class="publications mt-4">
         <div class="publication mb-4">
+          <div><strong>Sintr: Safe Interactive Transactions in the Presence of Byzantine Clients</strong></div>
+            <div><strong>Austin T. Li</strong>, Daniel H. Lee, Lorenzo Alvisi, Natacha Crooks, Florian Suri-Payer</div>
+            <div>SOSP 2026</div>
+            <div><a href="https://dl.acm.org/doi/10.1145/3830418.3843865" target="_blank" rel="noopener">Paper</a> | <a href="https://arxiv.org/abs/2608.27091" target="_blank" rel="noopener">Technical Report</a> | <a href="https://github.com/ATLi2001/Sintr-Artifact" target="_blank" rel="noopener">Code</a></div>
+        </div>
+        <div class="publication mb-4">
           <div><strong>Running Consistent Applications Closer to Users with Radical for Lower Latency</strong></div>
             <div>Nicolaas Kaashoek, Oleg A. Golev, <strong>Austin T. Li</strong>, Amit Levy, and Wyatt Lloyd</div>
             <div>SOSP 2025</div>
-            <div><a href="https://dl.acm.org/doi/10.1145/3731569.3764831">PDF</a></div>
+            <div><a href="https://dl.acm.org/doi/10.1145/3731569.3764831" target="_blank" rel="noopener">Paper</a></div>
         </div>
         <div class="publication mb-4">
           <div><strong>Leveraging External Synchrony for Distributed Databases in Functions as a Service Workflows</strong></div>
             <div><strong>Austin T. Li</strong></div>
             <div>Undergraduate Senior Thesis, Princeton University, 2023.</div>
-            <div><a href="/pdfs/senior_thesis.pdf">PDF</a></div>
+            <div><a href="/pdfs/senior_thesis.pdf" target="_blank" rel="noopener">Paper</a></div>
         </div>
     </section>
 
