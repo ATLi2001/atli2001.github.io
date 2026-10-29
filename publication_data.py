@@ -8,10 +8,17 @@ PUBLICATIONS = [
     },
     {
         "title": "Running Consistent Applications Closer to Users with Radical for Lower Latency",
-        "authors": "Nicolaas Kaashoek, Oleg A. Golev, <strong>Austin T. Li</strong>, Amit Levy, and Wyatt Lloyd",
+        "authors": "Nicolaas Kaashoek, Oleg A. Golev, <strong>Austin T. Li</strong>, Amit Levy, Wyatt Lloyd",
         "venue": "SOSP 2025",
         "links": '<a href="https://dl.acm.org/doi/10.1145/3731569.3764831">Paper</a>',
         "selected": True,
+    },
+    {
+        "title": "A Probabilistic Approach to Estimate the Temporal Order of Pathway Mutations Accounting for Intra-Tumor Heterogeneity",
+        "authors": "Menghan Wang, Yanqi Xie, Jinpeng Liu, <strong>Austin Li</strong>, Li Chen, Arnold Stromberg, Susanne M. Arnold, Chunming Liu, Chi Wang",
+        "venue": "Cancers Volume 16, Issue 13, 2024",
+        "links": '<a href="https://www.mdpi.com/2072-6694/16/13/2488">Paper</a>',
+        "selected": False,
     },
     {
         "title": "Leveraging External Synchrony for Distributed Databases in Functions as a Service Workflows",

@@ -12,6 +12,7 @@ Save_as: index.html
   <div class="more-info">
     <p>CS PhD at Cornell University</p>
     <p>atl63@cornell.edu</p>
+    <p><a href="https://scholar.google.com/citations?user=pmiAdYsAAAAJ">Google Scholar</a></p>
   </div>
 </div>
 
